@@ -1,6 +1,6 @@
 // variables générales
 const thMinWidth = 320; // détermine la largeur minimum
-const heightRatio = 1.77778; // le ratio par lequel la hauteur est divisé. 1.77778 correspond à du 16:9 (1.77778:1)
+const heightRatio = 1.77778; // le ratio par lequel la hauteur est divisée. 1.77778 correspond à du 16:9 (1.77778:1)
 
 (function(window){
     window.onload = function(e){
