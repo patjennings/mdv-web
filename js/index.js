@@ -1,5 +1,6 @@
 // variables générales
-const thMinWidth = 320;
+const thMinWidth = 320; // détermine la largeur minimum
+const heightRatio = 1.77778; // le ratio par lequel la hauteur est divisé. 1.77778 correspond à du 16:9 (1.77778:1)
 
 (function(window){
     window.onload = function(e){
@@ -25,7 +26,7 @@ function resizeGallery(){
     let ratio = Math.floor(totalWidth/thMinWidth);
 
     let frameWidth = totalWidth/ratio;
-    let frameHeight = frameWidth/1.77778;
+    let frameHeight = frameWidth/heightRatio;
     
     const frame = document.querySelectorAll('.frame');
 
